@@ -1,0 +1,16 @@
+.Mission{
+    border: 2px solid black;
+    text-align: left;
+    background: #f5f5f5;
+    color: rgb(0, 163, 253);
+    margin: 10px;
+    padding: 10px;
+    min-height: 10vh;
+    font-size: calc(10px + 2vmin);
+    list-style-type: none; 
+}
+
+.Mission-logo {
+  height: 13vmin;
+  pointer-events: none;
+}
