@@ -44,3 +44,28 @@
   min-height: 5vh;
   font-size: calc(5px + 2vmin);
 }
+
+.Link-header {
+  background-color: #282c34;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.Home {
+  font-size: calc(2px + 3vmin);
+  color: #616bfb;
+}
+
+.About {
+  font-size: calc(2px + 3vmin);
+  color: #616bfb;
+}
+
+.Users {
+  font-size: calc(2px + 3vmin);
+  color: #616bfb;
+}

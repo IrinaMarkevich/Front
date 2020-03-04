@@ -16,7 +16,7 @@ export default class MissionList extends React.Component {
   }
 
   checkMissionResult(mission) {
-    if(mission.result == 1) {
+    if(mission.result === 1) {
       return (
         <img src={'https://icons8.com/iconizer/files/Must_Have/orig/Check.png'} className="Mission-logo" alt="mission"/>
       );
