@@ -40,7 +40,18 @@ class User extends Component {
             {
               
               user.missions.map((mission) => (
-                <p className="lead" key={mission.id}>{mission.title}</p>
+                
+                  <div key={mission.id} className="card border-primary mb-3" style={{'maxWidth': '20rem'}}>
+                    <Link to={`/mission/${mission.id}`} >
+                    <div className="card-header card-title"> <h1>{mission.title}</h1></div>
+                    </Link>
+                    <div className="card-body">
+                      <h4 className="card-title"><p>Result: {mission.result}</p></h4>
+                      {/* <p className="card-text">{user.email}</p>
+                      <p className="card-text">{user.gender}</p>
+                      <p className="card-text">{user.age}</p> */}
+                    </div>
+                  </div>
               ))
             }
           </div>
