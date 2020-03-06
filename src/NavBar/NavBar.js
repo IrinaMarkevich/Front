@@ -5,7 +5,13 @@ function NavBar() {
   return (
     <nav className="navbar navbar-dark bg-primary fixed-top">
       <Link className="navbar-brand" to="/">
-        App
+        Home
+      </Link>
+      <Link className="navbar-brand" to="/register">
+        Log in
+      </Link>
+      <Link className="navbar-brand" to="/login">
+        Sign in
       </Link>
     </nav>
   );

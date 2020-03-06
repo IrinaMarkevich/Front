@@ -27,7 +27,7 @@ class Users extends Component {
       <div className="container">
         <div className="row">
           <div className="jumbotron col-12">
-            <h1 className="display-3">{auth}</h1>
+            <h1 className="display-3">{auth.access_token}</h1>
           </div>
         </div>
       </div>

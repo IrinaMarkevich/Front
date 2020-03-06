@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import axios from 'axios';
 
+
 class User extends Component {
   constructor(props) {
     super(props);
@@ -24,11 +25,11 @@ class User extends Component {
     return (
 
       <div className="container">
-         <Link to={`/user/${user.id}/auth`}>
+         {/* <Link to={`/user/${user.id}/auth`}>
            <div className="card text-white bg-success mb-3">
              <div className="card-header">Auth</div>
            </div>
-         </Link>
+         </Link> */}
 
         <div className="row">
           <div className="jumbotron col-12">
